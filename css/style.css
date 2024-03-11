@@ -17,8 +17,8 @@
 
 .header-links{
     display: grid;
-    grid-template-columns: 45px 72px;
-    grid-column-gap: 5px;
+    grid-template-columns: 45px 85px 45px 65px;
+    grid-column-gap: 10px;
 }
 
 .header-button{
