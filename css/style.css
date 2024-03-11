@@ -13,12 +13,14 @@
     padding: 10px;
     background-color: #1B1A55;
     border-radius: 10px;
+    color: white;
 }
 
 .header-links{
     display: grid;
     grid-template-columns: 45px 85px 45px 65px;
     grid-column-gap: 10px;
+    color: white;
 }
 
 .header-button{
@@ -37,6 +39,7 @@
 .main-block{
     background-color: #535C91;
     border-radius: 10px;
+    color: white;
 }
 
 .main-button{
@@ -60,8 +63,10 @@
     border-radius: 10px;
     padding: 10px;
     grid-column-gap: 10px;
+    color: white;
 }
 
 .footer-left{
     grid-template-rows: auto auto;
+    color: white;
 }
