@@ -18,7 +18,7 @@
 
 .header-links{
     display: grid;
-    grid-template-columns: 45px 85px 45px 65px;
+    grid-template-columns: 45px 91px 45px 65px;
     grid-column-gap: 10px;
     color: white;
 }
@@ -28,7 +28,7 @@
     color: white;
     border: 2px solid #535C91;
     transition-duration: 0.5s;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .header-button:hover{

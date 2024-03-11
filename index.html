@@ -7,6 +7,13 @@
     <link rel="icon" sizes="192x192" href="/data/303113_a logo for an nextcloud cloud instance with a tree_xl-1024-v1-0.png">
     <title>Willkommen - www.dauerndambauen.de</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .main-subblock{display: grid; grid-template-columns: 49% 49%; grid-column-gap: 2%; background-color: #070F2B;}
+        .main-block-left{background-color: #535C91; border-radius: 10px; color: white; padding: 10px;}
+        .main-block-down{padding: 10px;}
+        .main-block-grid{display: grid;grid-template-rows: auto auto; grid-row-gap: 30px;}
+        .main-block-subdiv{width: 95%; color: #fff; background-color: #9290C3; margin: auto; border-radius: 10px; padding: 10px;}
+    </style>
 </head>
 <body style="background-color: #070F2B;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="main">
     <header>
@@ -22,22 +29,32 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main-block-grid">
+        <div class="main-block main-subblock">
+            <div class="main-block-left">
+                <h1 style="color: white;">Projekte</h1><p><h4 style="color: #fff;">Von mir oder an denen ich mitgearbeitet habe:</h4></p>
+                <ul><li><a href="http://escape.asg-passau.de">ASG Passau Tag der offenen Tür 2024 Escape Room</a></li>  
+                </ul>
+            </div>
+            <img src="/data/projektboot-orange.png" width="100%" style="border-radius: 10px;">
+        </div>
         <div class="main-block">
-            <img src="../data/63068_the blueprint of the interior of a sailing ship _xl-1024-v1-0.png" width="100%;" style="border-radius: 10px;">
-            <div style="padding: 10px;"><h1>html Error 503</h1><p></p>
-            Seite wird gewartet bzw. erstellt.</div>
+            <div class="main-block-down">
+                <h1 style="text-align: center;">Updates</h1>
+                <p><div class="main-block-subdiv"><h3 style="text-align: center;">Hier werden bald Updates zu meinen Projekten und auch Services,
+                    wie z.B. die Cloud oder die Webseite, stehen.</h3></div></p>
+            </div>
         </div>
     </main>
     <footer>
         <div class="footer-main">
             <div class="footer-left"><a href="https://www.dauerndambauen.de"><img src="/data/303113_a logo for an nextcloud cloud instance with a tree_xl-1024-v1-0.png" height="30px"></a>
-                <h4>www.dauerndambauen.de</h4>
+                <h4>www.dauerndambauen.de</h4><p style="color: #535C91;">V-0.17</p>
             </div>
             <div>
                 <a href="/datenschutzerklaerung.html"><button class="header-button">Datenschutzerklärung</button></a><p>
                     <a href="/contact.html"><button class="header-button">Kontakt</button></a>
-                </p> <p style="color: #535C91;">V-0.16</p>
+                </p> 
             </div>
         </div>
     </footer>
