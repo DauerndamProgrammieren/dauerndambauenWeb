@@ -1,0 +1,34 @@
+@import "/utils/color.css";
+
+#headerfile{
+    display: grid;
+    grid-template-columns: 102px auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    padding: 10px;
+    background-color: #1B1A55;
+    border-radius: 10px;
+    color: white;
+    position: fixed;
+    margin-left: 20px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: 45px 91px 45px 65px;
+    grid-column-gap: 10px;
+    color: white;
+}
+
+.header-button{
+    background-color: #1B1A55;
+    color: white;
+    border: 2px solid #535c91;
+    transition-duration: 0.5s;
+    border-radius: 40px;
+}
+
+.header-button:hover{
+    background-color: #535c91;
+    color: white;
+}
