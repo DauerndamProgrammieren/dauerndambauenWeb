@@ -1,0 +1,6 @@
+{
+    "name": "dauerndambauen-web",
+    "short-name": "dabWeb",
+    "start_url": "index.html",
+    "display": "standalone"
+}
