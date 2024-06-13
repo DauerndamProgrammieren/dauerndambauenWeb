@@ -1,2 +1,20 @@
-@import "/utils/color.css"
+@import "/utils/color.css";
 
+#mainindex{
+    display: grid;
+    grid-template-columns: auto 50%;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    row-gap: 20px;
+}
+
+#orange-boat{
+    border-radius: 20px;
+}
+
+#projects-list{
+    overflow: scroll;
+    background-color: #535c91;
+    padding: 10px;
+    border-radius: 20px;
+}

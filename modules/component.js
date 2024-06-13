@@ -11,9 +11,6 @@ export default class Component extends HTMLElement {
         super();
     }
 
-    connectedCallback(){
-        this.shadow = this.attachShadow({mode:'open'});
-    }
 
     attributeChangedCallback(name, oldValue, newValue) {
         switch (name) {
@@ -43,6 +40,6 @@ export default class Component extends HTMLElement {
             fragment.appendChild(tempDiv.children[0]);
         }
 
-        this.shadow.appendChild(fragment);
+        this.appendChild(fragment);
     }
 }

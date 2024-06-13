@@ -4,8 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="module" src="/core/app.js"></script>
+    <link rel="stylesheet" href="/components/index/style.css">
 </head>
 <body>
-    <custom-comp id="list" src="/components/projects/list/index.html"></custom-comp>
+    <div id="mainindex">
+        <div id="projects-list">
+            <custom-comp id="list" src="/components/projects/list/index.html"></custom-comp>
+        </div>
+        <img id="orange-boat" src="/assets/images/projektboot-orange.png" alt="Prijects Boat-Icon" width="100%">
+    </div>
+    <script type="module" src="/components/index/handy.js"></script>
 </body>
 </html>
