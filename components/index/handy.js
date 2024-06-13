@@ -12,5 +12,6 @@ if(tester.offsetHeight >=127){
     grid.style.gridTemplateColumns = "auto";
     grid.style.gridTemplateRows = "auto auto";
     projectsShip.style.width = "300px";
-    projectList.style.height = "60%";
+    projectList.style.height = "90%";
+    document.getElementById("list").style.height = "10%"
 }

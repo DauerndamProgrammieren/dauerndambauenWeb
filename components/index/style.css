@@ -2,9 +2,9 @@
 
 #mainindex{
     display: grid;
-    grid-template-columns: auto 50%;
+    grid-template-columns: auto 40%;
     grid-template-rows: auto;
-    grid-column-gap: 10px;
+    grid-column-gap: 30px;
     row-gap: 20px;
 }
 
