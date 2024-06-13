@@ -1,0 +1,39 @@
+@import "/assets/styles/main.css";
+
+#footer-div{
+    background-color: #1b1a55;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 10px
+}
+
+#footer-address{
+    color: #ffea00;
+    font-size: small;
+    margin-left: 3px;
+}
+
+.footer-button{
+    margin-top: 5px;
+    color: white;
+    background-color: #535c91;
+    border: #9290c3 solid 2px;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+
+.footer-button:hover{
+    color: #ffea00;
+    background-color: #9290c3;
+    border: #535c91 solid 2px;
+}
+
+#footer-version{
+    color: #535c91;
+    font-size: small;
+}
