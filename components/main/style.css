@@ -1,0 +1,25 @@
+.main-block{
+    background-color: #535C91;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.main-button{
+    background-color: #535C91;
+    color: white;
+    border: 2px solid #9290C3;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.main-button:hover{
+    background-color: #9290C3;
+}
+
+
+.contact-sort{
+    display: flex;
+    grid-column-gap: 5px;
+}
