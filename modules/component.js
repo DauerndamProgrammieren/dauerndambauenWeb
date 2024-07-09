@@ -39,7 +39,7 @@ export default class Component extends HTMLElement {
         for (let i = 0; i < childCount; i++) {
             fragment.appendChild(tempDiv.children[0]);
         }
-
+        this.innerHTML = '';
         this.appendChild(fragment);
     }
 }
