@@ -1,0 +1,15 @@
+#footer-divB{
+    background-color: rgb(0, 0, 0);
+    border: 10px #fff;
+    height: auto;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
+    column-gap: 5px;
+}

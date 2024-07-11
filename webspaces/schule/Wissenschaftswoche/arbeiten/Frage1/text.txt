@@ -1,0 +1,9 @@
+Quelle:
+https://klimainformationssystem.bayern.de/grundlagen/glossar/klimamodelle Aufgerufen am 08.07.2024 um 0933
+
+Text:
+Globale (auch Global Climate Model oder kurz GCM gennant) und Regionale Klimamodelle (auch Regional Climate Model oder
+RCM gennant) unterscheiden sich primär im Bereich der Abdeckung. Wodurch durch den kleineren abgedeckten Bereich die
+Detailstärke in RCM imvergleich zu GCM größer ist. Darausfolgt, dass die Vorhersagbarkeit in einem kleineren Bereich
+genauer werden kann. Allerdings ist für Allgemeine Informationen ein GCM von Vorteil, da in diesem Model die Allgemeinen
+Veränderungen für den Globus oder Länder besser Sichtbar sind. 
