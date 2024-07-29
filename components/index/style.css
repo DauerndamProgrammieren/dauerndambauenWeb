@@ -1,0 +1,27 @@
+@import "/utils/color.css";
+
+#mainindex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+#orange-boat{
+    border-radius: 20px;
+}
+
+#projects-list{
+    overflow: scroll;
+    background-color: #535c91;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 55%;
+    max-height: 80%;
+}
+
+#orange-boat{
+    max-width: 40%;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+.txt{
+    color: rgb(255, 255, 255);
+    font-family:Arial, sans-serif;
+}
+
+.main-procon{
+    border-radius: 20px;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+}
+
+.main-div{
+    padding: 20px;
+    display: flex;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+}
+

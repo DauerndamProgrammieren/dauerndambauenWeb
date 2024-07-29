@@ -1,0 +1,16 @@
+.divDevRe{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.txt{
+    color: rgb(255, 255, 255);
+    font-family:Arial, sans-serif;
+}
+
+.img{
+    border-radius: 20px;
+}
