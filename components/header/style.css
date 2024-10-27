@@ -6,28 +6,21 @@
     grid-template-rows: auto auto;
     grid-column-gap: 10px;
     padding: 10px;
-    background-color: #1B1A55;
-    border-radius: 10px;
+    background-color: #ffffff71;
+    border-radius: 20px;
     color: white;
     position: fixed;
 }
 
-.links{
-    display: grid;
-    grid-template-columns: 45px 91px 45px 65px;
-    grid-column-gap: 10px;
-    color: white;
-}
-
 .header-button{
-    background-color: #1B1A55;
+    background-color: #1b1a5500;
     color: white;
-    border: 2px solid #535c91;
+    border: 2px solid #535c9100;
     transition-duration: 0.5s;
     border-radius: 40px;
 }
 
 .header-button:hover{
-    background-color: #535c91;
+    background-color: #ffffff71;
     color: white;
 }
