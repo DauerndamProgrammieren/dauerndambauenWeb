@@ -25,6 +25,20 @@
     color: white;
 }
 
+#hamburger-menu{
+  display: none;
+  background-color: #E03131;
+  margin-right: 10px;
+  margin-left: 1600px;
+  margin-top: 90px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 268px;
+  height: 326px;
+  color: #FFF5F5;
+  font-family: 'IBM Plex Mono';
+}
+
 
 
 
