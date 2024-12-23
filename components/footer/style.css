@@ -1,7 +1,7 @@
 @import "/assets/styles/main.css";
 
 #footer-div{
-    background-color: #1b1a55;
+    background-color: #C92A2A;
     height: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 
 #footer-address{
-    color: #ffea00;
+    color: #FFE3E3;
     font-size: small;
     margin-left: 3px;
     margin: auto;
@@ -18,8 +18,8 @@
 .footer-button{
     margin-top: 5px;
     color: white;
-    background-color: #535c91;
-    border: #9290c3 solid 2px;
+    background-color: #FF8787;
+    border: #FA5252 solid 2px;
     border-radius: 30px;
     transition-duration: 1s;
     margin-left: auto;
@@ -27,12 +27,12 @@
 
 .footer-button:hover{
     color: #ffea00;
-    background-color: #9290c3;
-    border: #535c91 solid 2px;
+    background-color: #FA5252;
+    border: #FF8787 solid 2px;
 }
 
 #footer-version{
-    color: #535c91;
+    color: #FF8787;
     font-size: small;
     padding: 10px
 }
